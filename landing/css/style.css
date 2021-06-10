@@ -1,0 +1,122 @@
+.tm-section-min-h {
+    background-color: #76cdd8;
+}
+
+.tm-col-md-reverse>div:first-child {
+    order: 2;
+}
+
+.tm-bg-color-primary {
+    background-color: #76cdd8;
+}
+
+.btn {
+    background-color: rgb(1, 153, 153);
+    border-color: rgb(1, 153, 153);
+}
+
+.tm-quote:hover {
+    color: #76cdd8;
+}
+
+.tm-md-flex-center .tm-quote {
+    font-style: normal;
+    quotes: none;
+    font-size: 18px;
+}
+
+.tm-section:nth-child(n+4) {
+    margin-top: 30px;
+}
+
+.tm-bg-color-secondary {
+    background-color: rgb(1, 153, 153);
+}
+
+.tm-pricing-table {
+    border-color: rgb(1, 153, 153);
+    margin: 30px 0px 30px 0;
+}
+
+.tm-form-header {
+    margin-top: 30px;
+}
+
+h2.tm-text-color-primary {
+    color: #76cdd8;
+}
+
+.btn:first-of-type {
+    margin-top: 10px;
+}
+
+.tm-form-header {
+    background-color: rgb(118, 205, 216);
+}
+
+.tm-contact-form {
+    position: relative;
+    top: -50px;
+    z-index: 3;
+}
+
+.tm-form-footer {
+    position: relative;
+    top: -100px;
+    z-index: 2;
+}
+
+.tm-copyright-text {
+    position: relative;
+    top: -100px;
+}
+
+.tm-card .p-5:hover::before {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 100px 100px 0;
+    border-color: transparent #76cdd8 transparent transparent;
+    margin-top: -300px;
+    margin-right: -470px;
+    position: absolute;
+    content: "";
+}
+
+.tm-col-md-reverse .p-5:hover::before {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 100px 100px 0px 0px;
+    border-color: #76cdd8 transparent transparent transparent;
+    margin-top: -345px;
+    margin-right: 470px;
+    position: absolute;
+    content: "";
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+    background-color: rgb(118, 205, 216);
+    border-color: rgb(118, 205, 216);
+}
+
+.tm-pricing-table:hover .tm-pricing-discount {
+    display: block;
+}
+
+.tm-pricing-discount__star {
+    color: red;
+}
+
+.img-fluid:hover {
+    transform: scale(1.1);
+}
+
+.tm-pricing-table:hover {
+    box-shadow: 0 0 0 0.2rem #24d4d4
+}
+
+.form-control:focus, .tm-contact-form select:focus {
+    border-color: #24d4d4;
+    box-shadow: 0 0 0 0.2rem #24d4d4;
+}

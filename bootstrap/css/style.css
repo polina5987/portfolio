@@ -1,0 +1,37 @@
+.container {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #111;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: coral;
+    border-color: coral;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: lightcoral;
+    border-color: lightcoral;
+}
+
+footer {
+    background-color: #525252;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+main>section:first-child {
+    color: #fff;
+}
